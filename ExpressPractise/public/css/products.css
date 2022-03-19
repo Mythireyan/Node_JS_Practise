@@ -1,0 +1,41 @@
+.product-form {
+  max-width: 100%;
+  width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+.product-form__form-control {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.product-form__form-control label {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-style: inherit;
+  font-weight: bold;
+}
+
+.product-form__form-control input {
+  padding: 5px 2px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.product-form__add-product__btn {
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+
+.product-form__add-product__btn:hover,
+.product-form__add-product__btn:active {
+  background-color: #6e0a3cb7;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #6e0a3cb7;
+}

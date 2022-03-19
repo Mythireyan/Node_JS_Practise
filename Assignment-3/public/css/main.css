@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 243, 207);
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
