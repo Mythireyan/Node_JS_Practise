@@ -46,3 +46,67 @@ body {
   text-align: center;
   margin: auto;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 50px 0px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2 {
+  margin: 0;
+}
+
+.card__content p {
+  margin-top: 5px;
+}
+
+.card__image {
+  width: 200px;
+  margin: auto;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+  margin: 0 0.25rem;
+}
+
+.btn {
+  font: inherit;
+  border: 1px solid #6e0a3cb7;
+  color: #6e0a3cb7;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #6e0a3cb7;
+  color: white;
+}
